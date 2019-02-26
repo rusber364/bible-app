@@ -1,0 +1,24 @@
+.main {
+  position: relative;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 0;
+}
+
+.change-book {
+  position: absolute;
+  top: -35px;
+  right: 0;
+  font-size: 25px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book {
+  width: 150px;
+  margin: 2px 3px;
+}

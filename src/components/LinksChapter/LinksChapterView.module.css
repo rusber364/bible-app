@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+
+.chapter {
+  margin: 5px;
+  min-width: 50px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bible-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Ruslan Berezhnoi / rusber364",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.18",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ]
+}

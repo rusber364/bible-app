@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "antd": "^3.13.6",
+    "classnames": "^2.2.6",
     "gatsby": "^2.1.18",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
@@ -29,7 +30,8 @@
     "less-loader": "^4.1.0"
   },
   "browserslist": [
-    ">0.25%",
-    "not dead"
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
   ]
 }

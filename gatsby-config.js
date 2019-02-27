@@ -20,11 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-less`,
       options: {
         javascriptEnabled: true,
-        modifyVars: {
-          'primary-color': 'green',
-          'font-family': 'Arial',
-          'layout-body-background': '#66ff79',
-        },
+        modifyVars: {},
       },
     },
   ],

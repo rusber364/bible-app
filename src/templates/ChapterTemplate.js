@@ -7,13 +7,12 @@ import css from './ChapterTemplate.module.css'
 
 const ChapterTemplate = props => {
   const { name, numChapter, chapter, keysChapters, abbrev } = props.pageContext
+  const titlePage = `${name} - ${numChapter}`
 
   return (
-    <Layout>
+    <Layout title={titlePage}>
       <section className={css.main}>
-        <h1 className={css.header}>
-          {name} - {numChapter}
-        </h1>
+        <h1 className={css.header}>{titlePage}</h1>
         <NavBooks abbrev={abbrev} keysChapters={keysChapters} />
         <Buttons
           abbrev={abbrev}

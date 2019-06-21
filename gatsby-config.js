@@ -4,6 +4,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Bible app`,
+        short_name: `Bible`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
@@ -23,5 +31,7 @@ module.exports = {
         modifyVars: {},
       },
     },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }

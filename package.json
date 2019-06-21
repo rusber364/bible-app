@@ -1,6 +1,6 @@
 {
   "name": "bible-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "author": "Ruslan Berezhnoi / rusber364",
   "license": "MIT",
@@ -11,23 +11,27 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "antd": "^3.13.6",
+    "antd": "^3.19.6",
     "classnames": "^2.2.6",
-    "gatsby": "^2.1.18",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-typography": "^0.16.18",
-    "typography": "^0.16.18",
-    "typography-theme-elk-glen": "^0.16.18"
+    "gatsby": "^2.10.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-elk-glen": "^0.16.19"
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.11.0",
-    "gatsby-plugin-less": "^2.0.11",
-    "gatsby-plugin-typography": "^2.2.7",
-    "gatsby-source-filesystem": "^2.0.23",
-    "gatsby-transformer-json": "^2.1.8",
+    "babel-plugin-import": "^1.12.0",
+    "gatsby-plugin-less": "^2.1.0",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-offline": "^2.2.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-typography": "^2.3.0",
+    "gatsby-source-filesystem": "^2.1.0",
+    "gatsby-transformer-json": "^2.2.0",
     "less": "^3.9.0",
-    "less-loader": "^4.1.0"
+    "less-loader": "^5.0.0"
   },
   "browserslist": [
     "> 1%",
